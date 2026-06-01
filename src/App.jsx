@@ -16,7 +16,7 @@ const App = () => {
   }
   return (
     <>
-      <Canvas camera={{ fov: 10, position: [0, -10, 150] }}>
+      <Canvas style={{ cursor: "pointer" }} camera={{ fov: 10, position: [0, -10, 150] }}>
         <Environment
           files={[
             "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/4k/studio_small_09_4k.exr",

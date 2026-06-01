@@ -323,15 +323,7 @@ Deeply interested in backend infrastructure, API design, authentication flows, d
             overflowY: "auto",
           }}
         >
-          <div
-            style={{
-              color: "rgba(255,255,255,0.30)",
-              marginBottom: "14px",
-              letterSpacing: "0.01em",
-            }}
-          >
-            Last login: {new Date().toDateString()} on ttys001
-          </div>
+          
 
           {shownLines.map((line, i) => (
             <div key={i} style={{ color: "#5af78e", marginBottom: "3px" }}>
@@ -576,6 +568,7 @@ Deeply interested in backend infrastructure, API design, authentication flows, d
                               marginBottom: "6px",
                               textTransform: "uppercase",
                               letterSpacing: "0.9px",
+                              textAlign: "left",
                             }}
                           >
                             {group.category}
